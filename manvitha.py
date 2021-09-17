@@ -9,7 +9,7 @@ def tictac():
         print(player,"enter your position to place",place,"!!")
         n=input()
 
-        if (board[n] == ''):
+        if (board[n] == ' '):
             count=count+1
             board[n]=place
             print_board()
